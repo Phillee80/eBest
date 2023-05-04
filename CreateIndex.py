@@ -19,3 +19,6 @@ def construct_index(directory_path):
 if __name__ == "__main__":
     directory_path = "C:\\Users\\phil.li\\Desktop\\SFA"
     index = construct_index(directory_path)
+
+ 
+
