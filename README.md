@@ -1,4 +1,5 @@
 # eBest
 CreateIndex 基于企业文档创建向量索引  <br>
-eBestAIDemo 知识库问答Demo <br>
+eBestAIDemo 知识库问答Demo （基于OpenAI） <br>
 eBestBotAPI 基于OpenAI的对话API （国内可用）<br>
+eBestChat   基于OpenAI的对话App For Windows <br>
