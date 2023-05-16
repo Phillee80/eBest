@@ -1,0 +1,169 @@
+.input-text {
+  /* 设置字体大小、边框等其他样式 */
+  font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.input-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.output-text {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.query-button {
+  background-color: #42a5f5; /* 按钮背景颜色 */
+  color: #ffffff; /* 按钮文字颜色 */
+  font-size: 15px; /* 按钮文字大小 */
+  padding: 5px 20px; /* 按钮内边距 */
+  border-radius: 5px; /* 按钮圆角 */
+  border: none; /* 移除默认边框 */
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  transition: background-color 0.3s; /* 过渡动画 */
+  margin-bottom: 30px;
+}
+
+.clear-button {
+  background-color: #f5424b; /* 按钮背景颜色 */
+  color: #ffffff; /* 按钮文字颜色 */
+  font-size: 15px; /* 按钮文字大小 */
+  padding: 5px 6px; /* 修改左右内边距 */ 
+  border-radius: 5px; /* 按钮圆角 */
+  border: none; /* 移除默认边框 */
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  transition: background-color 0.3s; /* 过渡动画 */
+  margin-bottom: 30px;
+  width: 60px; /* 添加固定宽度 */
+}
+
+.query-button:hover {
+  background-color: #1e88e5; /* 按钮悬停时的背景颜色 */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bubble-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.bubble {
+  background-color: #42a5f5;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  max-width: 80%;
+  color: #ffffff;
+  word-wrap: break-word;
+  word-break: break-all;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.bubble-content {
+  font-size: 14px;
+}
+
+.copyright-info {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+
+.copyright {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  background-color: #ffffff;
+}
+
+/* 其他样式保持不变 */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.fixed-header {
+  background-color: #ffffff;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 20px;  /* 添加这一行 */
+}
+
+.header-title {
+  font-family: 'Arial'; /* 使用您喜欢的字体 */
+  font-size: 18px; /* 设置字体大小 */
+  font-weight: bold; /* 设置字体粗细 */
+  /* 其他字体样式属性，如 font-style, color 等 */
+}
+
+.scroll-view {
+  position:relative;
+  flex: 1;
+  background-color: #ffffff;
+  padding-top: 180px;
+}
+
+.page {
+  height: 100%;
+  position: relative;
+}
+
+.scroll-view::before {
+  content: "";
+  display: block;
+  height: 30px;
+}
+
+.scroll-view::after {
+  content: "";
+  display: block;
+  height: 30px;
+}
+
+.text-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.text_copy {
+  margin-left: 10px; /* 增加左边距 */
+  margin-right: 10px; /* 增加右边距 */
+  color: rgb(248, 245, 245);
+}
+
+.text_delete{
+  margin-left: 15px; /* 增加左边距 */
+  margin-right: 10px; /* 增加右边距 */
+  color: rgb(226, 32, 32);
+}

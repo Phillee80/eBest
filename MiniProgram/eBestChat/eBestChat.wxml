@@ -1,0 +1,31 @@
+<view class="container">
+  <view class="fixed-header">
+    <view class="header-title">请输入您的问题：</view>
+    <textarea
+      class="input-text"
+      style="width: 100%; height: 100px;"
+      bindinput="onInputChange"
+      focus="{{inputFocus}}"
+      value="{{inputText}}"
+      placeholder="输入问题"
+    ></textarea>
+    <view class="button-container">
+      <button class="query-button" bindtap="onQueryClick">提交问题</button>
+      <button class="clear-button" bindtap="onClearClick" disabled="{{!inputText}}">清空</button>
+    </view>
+  </view>
+  <scroll-view scroll-y="true" class="scroll-view" style="height: calc(100% - 180px);">
+    <block wx:for="{{responses}}" wx:key="response">
+      <view class="bubble {{index === 0 ? 'first-bubble' : ''}}">
+        <view class="bubble-content">
+          <text>{{item}}</text>
+        </view>
+        <view class="text-container">
+          <text class="text_copy" bindtap="onCopyTap" data-text="{{item}}">复制</text>
+          <text class="text_delete" bindtap="onDeleteTap" data-index="{{index}}">删除</text>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+  <view class="copyright">©2023 eBestChat. All rights reserved.</view>
+</view>
