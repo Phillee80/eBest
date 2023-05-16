@@ -24,6 +24,7 @@ from langchain.document_loaders import (
 load_dotenv()
 
 
+
 # Get the Variables from the .env file
 OPENAI_API_KEY = os.getenv('OPEN_AI_KEY')
 PINECONE_API_KEY = os.getenv('PINECONE_API_KEY')
@@ -58,11 +59,14 @@ class DocumentLoaderFactory:
         
         
         mime_type, _ = mimetypes.guess_type(file_path_or_url)
+        ext_name = os.path.splitext(file_path_or_url)[1]
 
         if mime_type == 'application/pdf':
             return PyPDFLoader(file_path_or_url)
         elif mime_type == 'text/csv':
             return CSVLoader(file_path_or_url)
+        elif ext_name == ".docx":
+            return UnstructuredWordDocumentLoader(file_path_or_url)
         elif mime_type in ['application/msword',
                             'application/vnd.openxmlformats-officedocument.wordprocessingml.document']:
             return UnstructuredWordDocumentLoader(file_path_or_url)
@@ -145,7 +149,7 @@ def answer_questions(pinecone_index):
 def main():
     pinecone_manager = PineconeManager(PINECONE_API_KEY, PINECONE_ENVIRONMENT)
     pinecone_index_manager = PineconeIndexManager(pinecone_manager, PINECONE_INDEX_NAME)
-    file_path = "C:/Users/Phil/Desktop/Test.pdf"
+    file_path = "D:/Python/eBest/FAQ.docx"
     name_space = "insurance"
 
     train = int(input("Do you want to train the model? (1 for yes, 0 for no): "))
