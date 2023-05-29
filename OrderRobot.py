@@ -41,9 +41,14 @@ def main():
     while True:
         question = input("业代：")
         context.append({'role':'user', 'content':f"{question}"})
+        print ("--------当前的完整Prompt------------\n\n")
+        print (context)
+        print ("--------Prompt输出完毕----------\n\n")
         response = get_completion_from_messages(context) 
         context.append({'role':'assistant', 'content':f"{response}"})    
+        print ("--------订单机器人答复----------\n\n")
         print ("订单机器人：" + response)
+        print ("--------机器人答复完毕----------\n\n")
 
 
 if __name__ == "__main__":
