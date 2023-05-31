@@ -9,22 +9,44 @@ import traceback
 import json
 import logging
 import time
+import os
+import openai
 
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
 logging.basicConfig(filename='log.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-conf = json.load(open("config.json"))
+openai.api_key  = "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"
 
 
-def chatgpt35_api(request_data):
-    headers = {
+def get_completion_from_messages(messages, model="gpt-3.5-turbo", temperature=0.1):
+    response = openai.ChatCompletion.create(
+        model=model,
+        messages=messages,
+        temperature=temperature, 
+    )
+    return response.choices[0].message["content"]
+
+def ask_bot(request_data):
+  question = []
+  question.append({'role':'user', 'content':f"{request_data}"})
+  log_text = "access parameter: {}\n".format(request_data)  # Append request_data to log_text
+  headers = {
         "content-type": "application/json",
-        'Authorization': "Bearer " + conf["key"]
+        'Authorization': "Bearer " + openai.api_key
     }
-    response = requests.post(url=conf["url"], headers=headers, json=request_data)
-    answer = [elem["message"] for elem in response.json()['choices']]
-    return answer
+  try:
+    response = get_completion_from_messages(question) 
+    print ("用户的问题是：" + request_data)
+    print ("GPT的回答是：" + response)
+    return response
+  except Exception as e:
+        log_text += "exception args: {}\n".format(e.args)  # Append exception args to log_text
+        log_text += "exception args: {args}".format(args=e.args)  # 异常信息
+        log_text += traceback.format_exc() + "\n"  # 异常详细信息
+        code = 500
+        msg = "Index调用错误！"
+
 
 
 @app.route('/api/chatgpt/v2', methods=['GET', 'POST'])
@@ -36,7 +58,7 @@ def extract_info():
     try:
         request_data = json.loads(request.get_data(as_text=True))
         st = time.time()
-        answer = chatgpt35_api(request_data)  # 20220419
+        answer = ask_bot(request_data['messages'][0]['content'])
         elapse = f"{round(time.time() - st, 3)} s"
         msg = "成功"
     except Exception as e:
