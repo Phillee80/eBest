@@ -20,7 +20,8 @@ conn = pymysql.connect(host='mysql-nfa-dev.mysql.database.chinacloudapi.cn', por
                            charset='utf8mb4')
 
 # 创建游标
-cursor = conn.cursor()
+# cursor = conn.cursor()
+
 
 class SearchSchema(BaseModel):
     query: str = Field(description="input store code:")
@@ -89,18 +90,32 @@ class CalculatorTool(BaseTool):
 
     async def _arun(self, query: str) -> str:
         raise NotImplementedError("暂时不支持异步")
-    
+
+# 定位
+class GPSposition(BaseTool):
+    name = "GPS"
+    description = "如果是关于定位或者打卡的问题，请使用它"
+
+    def _run(self, query: str) -> str:
+        print("\n现在执行定位功能 " )
+        return "4"
+
+    async def _arun(self, query: str) -> str:
+        raise NotImplementedError("暂时不支持异步")
+
 
 llm = OpenAI(temperature=0)
-tools = [StoreSearchTool(), ProductSearchTool(), CalculatorTool()]
+tools = [StoreSearchTool(), ProductSearchTool(), CalculatorTool()，GPSposition()]
 agent = initialize_agent(
     tools, llm, agent="zero-shot-react-description", verbose=True)
 
-print("问题1：")
-sqlresult = agent.run("查询门店家乐福古北月销量")
-print("结果：" + sqlresult)
-summary = llm ("基于上面的数据分析一下销量异常的产品:" + sqlresult)
-print("基于以上数据的分析结果：" + summary)
+
+question = input("请输入你的问题：")
+agent.run(question)
+#sqlresult = agent.run("查询门店家乐福古北月销量")
+#print("结果：" + sqlresult)
+#summary = llm ("基于上面的数据分析一下销量异常的产品:" + sqlresult)
+#print("基于以上数据的分析结果：" + summary)
 
 """"
 print("问题2：")
