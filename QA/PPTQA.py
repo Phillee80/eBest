@@ -11,8 +11,8 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.prompts import PromptTemplate
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-
-openai_api_key = "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"
+load_dotenv()
+os.environ['OPENAI_API_KEY'] = "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"
 
 def chat(qa):
     while True:
@@ -46,13 +46,12 @@ def main():
     prompt_template = """请根据以下信息：
                         {context}
                         回答问题: {question} 
-                        如果用户的问题是一串编码，很有可能是产品的编号，在文档中找到该产品的相关信息并输出
                         在每次回答的结尾添加文档中提到的图文链接"""
     PROMPT = PromptTemplate(template=prompt_template, input_variables=["context", "question"])
     chain_type_kwargs = {"prompt": PROMPT}
     # create a chain to answer questions 
     qa = RetrievalQA.from_chain_type(
-        llm=OpenAI(), chain_type="stuff", retriever=retriever, return_source_documents=True,chain_type_kwargs=chain_type_kwargs)
+        llm=OpenAI(), chain_type="stuff", retriever=retriever, return_source_documents=False,chain_type_kwargs=chain_type_kwargs)
     chat (qa)
     
 if __name__ == "__main__":
