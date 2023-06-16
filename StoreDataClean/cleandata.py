@@ -2,7 +2,9 @@ import pandas as pd
 import requests
 import re
 
+# gaodekey = '3ff38452da0f55a1ba37de2ee6eb5300'
 gaodekey = 'd20c1828f1bde69314703f66583d3f32'
+
 targetpath = 'C:/Users/Phil/Desktop/data/new.xlsx'
 # 读取 Excel 文件
 df = pd.read_excel('C:/Users/Phil/Desktop/data/ul.xlsx')
@@ -25,8 +27,9 @@ def gpstolocal(v):
     if response.status_code == 200:
         data = response.json()
         print(data)
-        province = data['regeocode']['addressComponent']['province']
-        district = data['regeocode']['addressComponent']['district']
+        if data['status'] == '1':
+            province = data['regeocode']['addressComponent']['province']
+            district = data['regeocode']['addressComponent']['district']
 
     return province,district
 
@@ -48,7 +51,7 @@ def addtogps(v):
     if response.status_code == 200:
         data = response.json()
         print(data)
-        if data['pois'] and len(data['pois'])>0 :
+        if data['status'] =='1' and data['pois'] and len(data['pois'])>0 :
             province = data['pois'][0]['pname']
             district = data['pois'][0]['adname']
             location = data['pois'][0]['location']
@@ -77,7 +80,7 @@ def addtogps2(v):
     if response.status_code == 200:
         data = response.json()
         print(data)
-        if data['pois'] and len(data['pois']) > 0:
+        if data['status'] =='1' and data['pois'] and len(data['pois']) > 0:
             poisdata= data['pois']
             print(poisdata)
             poicount = 0
