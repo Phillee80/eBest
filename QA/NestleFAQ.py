@@ -29,7 +29,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
 logging.basicConfig(filename='log.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "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"
 
 
 
@@ -57,13 +57,13 @@ def extract_info():
     # create the vectorestore to use as the index
     db = Chroma.from_documents(texts, embeddings)
     # expose this index in a retriever interface
-    retriever = db.as_retriever(search_type="similarity", search_kwargs={"k":8})
+    retriever = db.as_retriever(search_type="similarity", search_kwargs={"k":5})
 
     prompt_template = """
                         你是一个智能问答的小助手，
                         请根据以下信息： {context}
                         回答用户的问题: {question} 
-                        如果用户的问题你不理解，或者找不到答案，就礼貌得回答用户："对不起，知识库里检索不到问题相关的答案"。一定不要编造问题的答案。
+                        你只负责回答文档里包含的问题答案，如果用户的问题找不到答案，或者和文档无关，就礼貌得回答用户："对不起，知识库里检索不到问题相关的答案"。一定不要编造问题的答案。
                         当你确定能回答用户问题的时候，需要在回答的结尾添加文档中提到的图文链接。"""
 
 

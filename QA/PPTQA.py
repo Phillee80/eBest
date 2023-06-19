@@ -12,7 +12,7 @@ from langchain.prompts import PromptTemplate
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 load_dotenv()
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "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"
 
 def chat(qa, prompt):
     # formatted_prompt_template = qa.chain_type_kwargs["prompt"].template
