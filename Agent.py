@@ -11,7 +11,7 @@ from langchain.callbacks.manager import AsyncCallbackManagerForToolRun, Callback
 import os
 
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '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'
 
 
 
@@ -20,11 +20,13 @@ conn = pymysql.connect(host='mysql-nfa-dev.mysql.database.chinacloudapi.cn', por
                            charset='utf8mb4')
 
 # 创建游标
-# cursor = conn.cursor()
+cursor = conn.cursor()
 
 
 class SearchSchema(BaseModel):
     query: str = Field(description="input store code:")
+
+"""
 
 # 搜索门店
 class StoreSearchTool(BaseTool):
@@ -62,7 +64,8 @@ class StoreSearchTool(BaseTool):
 
     async def _arun(self, query: str) -> str:
         raise NotImplementedError("暂时不支持异步")
-    
+"""
+
 # 搜索产品
 class ProductSearchTool(BaseTool):
     name = "Search Product Item List"
@@ -102,10 +105,23 @@ class GPSposition(BaseTool):
 
     async def _arun(self, query: str) -> str:
         raise NotImplementedError("暂时不支持异步")
+    
+# 用户KPI查询
+class UserKPITool(BaseTool):
+    name = "UserKPI"
+    description = "如果是关于查询业代用户KPI或指标达成，请使用它"
+
+    def _run(self, query: str) -> str:
+        print("\n现在调用用户KPI查询功能 " )
+        return "本月销量目标￥10K，截止昨日完成￥8,350，达成率83%，请继续加油！"
+
+    async def _arun(self, query: str) -> str:
+        raise NotImplementedError("暂时不支持异步")
 
 
 llm = OpenAI(temperature=0)
-tools = [StoreSearchTool(), ProductSearchTool(), CalculatorTool()，GPSposition()]
+#tools = [StoreSearchTool(), ProductSearchTool(), CalculatorTool(),GPSposition(),UserKPITool()]
+tools = [ProductSearchTool(), CalculatorTool(),GPSposition(),UserKPITool()]
 agent = initialize_agent(
     tools, llm, agent="zero-shot-react-description", verbose=True)
 
