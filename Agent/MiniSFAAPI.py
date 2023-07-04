@@ -1,3 +1,16 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
+from flask import Flask
+from flask_sslify import SSLify
+from flask import request
+from flask_cors import *
+import traceback
+import json
+import logging
+import time
+import openai
 from langchain.tools import BaseTool
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
@@ -9,8 +22,14 @@ import datetime
 import requests
 import OrderRobot
 import os
+import ssl
 
-OPENAI_API_KEY = "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"
+
+
+app = Flask(__name__)
+CORS(app, supports_credentials=True)
+logging.basicConfig(filename='log.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+OPENAI_API_KEY  = "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"
 # os.environ["LANGCHAIN_TRACING"] = "true"
 
 llm = ChatOpenAI(
@@ -60,11 +79,11 @@ sys_msg = """Assistant is a large language model trained by OpenAI.
             Assistant is designed to be able to assist with a wide range of tasks, from answering simple questions to providing in-depth explanations and discussions on a wide range of topics. As a language model, Assistant is able to generate human-like text based on the input it receives, allowing it to engage in natural-sounding conversations and provide responses that are coherent and relevant to the topic at hand.
 
             Assistant is constantly learning and improving, and its capabilities are constantly evolving. It is able to process and understand large amounts of text, and can use this knowledge to provide accurate and informative responses to a wide range of questions. Additionally, Assistant is able to generate its own text based on the input it receives, allowing it to engage in discussions and provide explanations and descriptions on a wide range of topics.
-         
-            今天的日期是2023年7月3日，星期一。
 
-            用户执行门店拜访前，必须明确门店的编码
+            Today is 2023-07-03
 
+            All reply has to be in Chinese
+            
             Overall, Assistant is a powerful system that can help with a wide range of tasks and provide valuable insights and information on a wide range of topics. Whether you need help with a specific question or just want to have a conversation about a particular topic, Assistant is here to assist.
 """
 
@@ -125,7 +144,7 @@ class TatgetByUserTool(BaseTool):
 # 线路查询工具
 class RoutePlanByUserTool(BaseTool):
     name = "Search route plan by date"
-    description = "根据日期查询用户在该日的拜访线路，最终拜访计划里所有门店的code,name,address"
+    description = "根据日期查询用户在该日的拜访线路，以及拜访计划里所有门店的code,name,address"
     
     def _run(self, query: str) -> str:
         TargetDate=QueryDate.run(query)
@@ -154,7 +173,7 @@ class RoutePlanByUserTool(BaseTool):
             name = store['name']
             address = store['address']
             print(f"Code: {code}, Name: {name}, Address: {address}")
-            outputlist = outputlist + code + name + address
+            outputlist = outputlist + code + " " +name + " " + address
              
         return outputlist
 
@@ -185,6 +204,7 @@ class QueryCustomer(BaseTool):
         }
         headers = {'x-tenant-id': 'demo'}
         StoreQuery = requests.post('https://isfaqas.ebestmobile.com:5000/store/object/search', json=data,headers=headers)
+        outputlist = ''
 
         # 检查状态码
         if StoreQuery.status_code == 200:
@@ -199,9 +219,11 @@ class QueryCustomer(BaseTool):
                 address = store['Address']
                 print(f"Code: {code}, Name: {name}, Address: {address}")
                 outputlist = outputlist + code + name + address
+            
+            return  outputlist + '我需要和用户确认从以上列表里选择一家门店'
         else:
             print(f"Request failed with status code {StoreQuery.status_code}")
-        return  outputlist + '我需要和用户确认从以上列表里选择一家门店'
+        
     
         '''
         print ("系统里查到包含'" + query + "'的门店有：")
@@ -277,20 +299,43 @@ new_prompt = agent.agent.create_prompt(
 agent.agent.llm_chain.prompt = new_prompt
 agent.tools = tools
 
-#-------------------------以下是测试场景：------------------------------------
 
-#场景一：查询业代销量
-#agent.run("本月销量")
 
-#场景二：查询线路 （目前对周几判定错误）
-#agent.run("查一下这周三的线路") 
 
-#场景三：查询门店
-#agent.run("查一下便利店") 
+@app.route('/api/chatgpt/v2', methods=['GET', 'POST'])
+def extract_info():
+    code = 200
+    log_text = ""
+    answer = ""
+    elapse = ""
+    try:
+        request_data = json.loads(request.get_data(as_text=True))
+        st = time.time()
+        print("用户输入的问题是：" + request_data['messages'][0]['content'])
+        answer = agent.run(request_data['messages'][0]['content'])
+        elapse = f"{round(time.time() - st, 3)} s"
+        msg = "成功"
+    except Exception as e:
+        log_text += "exception args: {args}".format(args=e.args)  # 异常信息
+        log_text += traceback.format_exc() + "\n"  # 异常详细信息
+        code = 500
+        msg = "服务器内部错误！"
+    data = {"answer": answer, "elapse": elapse}
+    response = json.dumps({"code": code, "msg": msg, "data": data}, ensure_ascii=False)
+    log_text += "\nreturned data: \n\t{data}".format(data=data)  # 接口返回数据
+    logging.info(log_text)
+    return response
 
-#场景四：订单功能
-agent.run("下订单") 
 
-#场景五：开始拜访
-#agent.run("我要拜访老王店")
-
+if __name__ == '__main__':
+    app.config['JSON_AS_ASCII'] = False
+    from time import strftime, localtime
+    with open("log.txt", "a+", encoding="utf8") as f:
+        f.write("\nService on port 5200 started ^_-\n" + strftime("%Y-%m-%d %H:%M:%S", localtime()) + "\n")
+    context = ssl.create_default_context(purpose=ssl.Purpose.CLIENT_AUTH)
+    context.load_cert_chain("C:/Users/phil.li/Desktop/Nginx/ebestmobile.net_cert_chain.pem", 
+                            keyfile="C:/Users/phil.li/Desktop/Nginx/ebestmobile.net_key.key")
+    # 将应用程序绑定到SSL上下文  
+    sslify = SSLify(app)
+    app.run(host="0.0.0.0", port=5200, ssl_context=context, debug=True)
+    #app.run(host='0.0.0.0', port=5200, processes=True)  # threaded=True

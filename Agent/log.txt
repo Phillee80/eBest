@@ -1,0 +1,1237 @@
+
+Service on port 5200 started ^_-
+2023-07-03 04:15:26
+2023-07-03 04:15:26,780 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 04:15:26,780 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 04:15:46,236 - WARNING - Failed to load default session, using empty session: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /sessions?name=default (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014B0ED0F590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:15:52,422 - WARNING - Failed to load default session, using empty session: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /sessions?name=default (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014B0ED21DD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:15:57,561 - WARNING - Failed to persist run: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /chain-runs (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014B0ED35DD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:16:04,547 - WARNING - Failed to persist run: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /chain-runs (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014B0ED45650>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:16:04,548 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for last month was 600.', 'elapse': '22.392 s'}
+2023-07-03 04:16:04,549 - INFO - 127.0.0.1 - - [03/Jul/2023 04:16:04] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 04:16:42
+2023-07-03 04:16:42,421 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 04:16:42,421 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 04:17:13,313 - INFO - 127.0.0.1 - - [03/Jul/2023 04:17:13] "[33mGET / HTTP/1.0[0m" 404 -
+
+Service on port 5200 started ^_-
+2023-07-03 04:17:29
+2023-07-03 04:17:29,507 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 04:17:29,509 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 04:17:47,906 - WARNING - Failed to load default session, using empty session: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /sessions?name=default (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000232A00A8F90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:17:53,843 - WARNING - Failed to load default session, using empty session: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /sessions?name=default (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000232A0111ED0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:18:00,093 - WARNING - Failed to persist run: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /chain-runs (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000232A0121BD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:18:05,126 - WARNING - Failed to persist run: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /chain-runs (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000232A0135E50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:18:05,129 - INFO - 
+returned data: 
+	{'answer': None, 'elapse': '21.285 s'}
+2023-07-03 04:18:05,130 - INFO - 127.0.0.1 - - [03/Jul/2023 04:18:05] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 04:18:35
+2023-07-03 04:18:35,401 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 04:18:35,401 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 04:18:47,061 - INFO - 127.0.0.1 - - [03/Jul/2023 04:18:47] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 04:19:08,500 - WARNING - Failed to load default session, using empty session: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /sessions?name=default (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184EE6CBE90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:19:14,047 - WARNING - Failed to load default session, using empty session: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /sessions?name=default (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184EE6E1F10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:19:18,984 - WARNING - Failed to persist run: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /chain-runs (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184EE6F6090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:19:24,078 - WARNING - Failed to persist run: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /chain-runs (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184EE6F5790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:19:24,078 - INFO - 
+returned data: 
+	{'answer': None, 'elapse': '19.656 s'}
+2023-07-03 04:19:24,078 - INFO - 127.0.0.1 - - [03/Jul/2023 04:19:24] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 04:20:47
+2023-07-03 04:20:48,010 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 04:20:48,010 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 04:21:11,500 - WARNING - Failed to load default session, using empty session: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /sessions?name=default (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AD6E72B9D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:21:17,407 - WARNING - Failed to load default session, using empty session: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /sessions?name=default (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AD6E7421D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:21:22,500 - WARNING - Failed to persist run: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /chain-runs (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AD6E751F50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:21:27,573 - WARNING - Failed to persist run: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /chain-runs (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AD6E766210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-07-03 04:21:27,576 - INFO - 
+returned data: 
+	{'answer': None, 'elapse': '20.154 s'}
+2023-07-03 04:21:27,577 - INFO - 127.0.0.1 - - [03/Jul/2023 04:21:27] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 04:22:07
+2023-07-03 04:22:07,705 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 04:22:07,706 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 04:23:32,023 - INFO - 
+returned data: 
+	{'answer': None, 'elapse': '4.679 s'}
+2023-07-03 04:23:32,024 - INFO - 127.0.0.1 - - [03/Jul/2023 04:23:32] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 04:40:35
+2023-07-03 04:40:35,654 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 04:40:35,654 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 04:41:08,175 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for this month is 700.', 'elapse': '6.597 s'}
+2023-07-03 04:41:08,176 - INFO - 127.0.0.1 - - [03/Jul/2023 04:41:08] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 05:00:09,641 - INFO - 127.0.0.1 - - [03/Jul/2023 05:00:09] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 05:06:54,221 - INFO - 127.0.0.1 - - [03/Jul/2023 05:06:54] "[33mGET / HTTP/1.0[0m" 404 -
+
+Service on port 5200 started ^_-
+2023-07-03 05:07:25
+2023-07-03 05:07:25,386 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:07:25,386 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 05:07:53,314 - INFO - 127.0.0.1 - - [03/Jul/2023 05:07:53] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 05:07:59,289 - INFO - 127.0.0.1 - - [03/Jul/2023 05:07:59] "[33mGET / HTTP/1.0[0m" 404 -
+
+Service on port 5200 started ^_-
+2023-07-03 05:09:12
+2023-07-03 05:09:12,317 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:09:12,317 - INFO - [33mPress CTRL+C to quit[0m
+
+Service on port 5200 started ^_-
+2023-07-03 05:13:26
+2023-07-03 05:13:26,389 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:13:26,389 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 05:13:32,189 - INFO - 127.0.0.1 - - [03/Jul/2023 05:13:32] "[33mGET / HTTP/1.0[0m" 404 -
+
+Service on port 5200 started ^_-
+2023-07-03 05:17:10
+2023-07-03 05:17:11,091 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:17:11,095 - INFO - [33mPress CTRL+C to quit[0m
+
+Service on port 5200 started ^_-
+2023-07-03 05:21:23
+2023-07-03 05:21:23,564 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:21:23,564 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 05:21:39,689 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for this month is 700.', 'elapse': '6.036 s'}
+2023-07-03 05:21:39,689 - INFO - 127.0.0.1 - - [03/Jul/2023 05:21:39] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 05:21:55,323 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for August is 550.', 'elapse': '4.195 s'}
+2023-07-03 05:21:55,323 - INFO - 127.0.0.1 - - [03/Jul/2023 05:21:55] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 05:22:25,892 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for July was 700.', 'elapse': '6.175 s'}
+2023-07-03 05:22:25,892 - INFO - 127.0.0.1 - - [03/Jul/2023 05:22:25] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 05:23:00,315 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for September is 650.', 'elapse': '5.47 s'}
+2023-07-03 05:23:00,316 - INFO - 127.0.0.1 - - [03/Jul/2023 05:23:00] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 05:24:43
+2023-07-03 05:24:43,312 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:24:43,312 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 05:25:46,611 - INFO - 
+returned data: 
+	{'answer': 'The route plan for January 2nd is not available.', 'elapse': '10.828 s'}
+2023-07-03 05:25:46,626 - INFO - 127.0.0.1 - - [03/Jul/2023 05:25:46] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 05:26:59,701 - INFO - 
+returned data: 
+	{'answer': 'The route plan for January 1st is not available.', 'elapse': '11.277 s'}
+2023-07-03 05:26:59,701 - INFO - 127.0.0.1 - - [03/Jul/2023 05:26:59] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 05:27:38
+2023-07-03 05:27:38,615 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:27:38,616 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 05:27:52,565 - INFO - 
+returned data: 
+	{'answer': 'The route plan for yesterday was not found.', 'elapse': '5.581 s'}
+2023-07-03 05:27:52,577 - INFO - 127.0.0.1 - - [03/Jul/2023 05:27:52] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 05:29:56
+2023-07-03 05:29:56,149 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:29:56,149 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 05:30:10,486 - INFO - 
+returned data: 
+	{'answer': "The route plan for yesterday included a visit to the 'Èí¼þÔ°ÉçÇøµê' store located at ÉÏº£ÊÐÐì»ãÇøÌìÔ¿ÇÅÂ·ÃÀÂÞ³Ç¶«ÄÏ100Ã×.", 'elapse': '6.659 s'}
+2023-07-03 05:30:10,498 - INFO - 127.0.0.1 - - [03/Jul/2023 05:30:10] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 05:32:11
+2023-07-03 05:32:11,507 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:32:11,507 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 05:32:24,892 - INFO - 
+returned data: 
+	{'answer': "The route plan for yesterday included a visit to the 'Èí¼þÔ°ÉçÇøµê' store located at ÉÏº£ÊÐÐì»ãÇøÌìÔ¿ÇÅÂ·ÃÀÂÞ³Ç¶«ÄÏ100Ã×.", 'elapse': '7.25 s'}
+2023-07-03 05:32:24,899 - INFO - 127.0.0.1 - - [03/Jul/2023 05:32:24] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 05:32:45,548 - INFO - 127.0.0.1 - - [03/Jul/2023 05:32:45] "[33mPOST /Autodiscover/Autodiscover.xml HTTP/1.0[0m" 404 -
+
+Service on port 5200 started ^_-
+2023-07-03 05:34:50
+2023-07-03 05:34:50,675 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:34:50,675 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 05:35:00,706 - INFO - 127.0.0.1 - - [03/Jul/2023 05:35:00] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 05:35:10,095 - INFO - error_code=context_length_exceeded error_message="This model's maximum context length is 4097 tokens. However, your messages resulted in 6501 tokens. Please reduce the length of the messages." error_param=messages error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-07-03 05:35:10,148 - INFO - exception args: ("This model's maximum context length is 4097 tokens. However, your messages resulted in 6501 tokens. Please reduce the length of the messages.",)Traceback (most recent call last):
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 277, in extract_info
+    answer = agent.run(request_data['messages'][0]['content'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 273, in run
+    return self(args[0], callbacks=callbacks, tags=tags)[_output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 149, in __call__
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 143, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 957, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 762, in _take_next_step
+    output = self.agent.plan(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 443, in plan
+    full_output = self.llm_chain.predict(callbacks=callbacks, **full_inputs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\llm.py", line 252, in predict
+    return self(kwargs, callbacks=callbacks)[self.output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 149, in __call__
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 143, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\llm.py", line 92, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\llm.py", line 102, in generate
+    return self.llm.generate_prompt(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\base.py", line 167, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\base.py", line 102, in generate
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\base.py", line 94, in generate
+    results = [
+              ^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\base.py", line 95, in <listcomp>
+    self._generate(m, stop=stop, run_manager=run_manager, **kwargs)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\openai.py", line 359, in _generate
+    response = self.completion_with_retry(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\openai.py", line 307, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 314, in iter
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\openai.py", line 305, in _completion_with_retry
+    return self.client.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\api_resources\chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\api_requestor.py", line 226, in request
+    resp, got_stream = self._interpret_response(result, stream)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\api_requestor.py", line 619, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\api_requestor.py", line 682, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens. However, your messages resulted in 6501 tokens. Please reduce the length of the messages.
+
+
+returned data: 
+	{'answer': '', 'elapse': ''}
+2023-07-03 05:35:10,148 - INFO - 127.0.0.1 - - [03/Jul/2023 05:35:10] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 05:36:45
+2023-07-03 05:36:46,081 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:36:46,090 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 05:36:59,971 - INFO - error_code=context_length_exceeded error_message="This model's maximum context length is 4097 tokens. However, your messages resulted in 6496 tokens. Please reduce the length of the messages." error_param=messages error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-07-03 05:36:59,971 - INFO - exception args: ("This model's maximum context length is 4097 tokens. However, your messages resulted in 6496 tokens. Please reduce the length of the messages.",)Traceback (most recent call last):
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 277, in extract_info
+    answer = agent.run(request_data['messages'][0]['content'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 273, in run
+    return self(args[0], callbacks=callbacks, tags=tags)[_output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 149, in __call__
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 143, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 957, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 762, in _take_next_step
+    output = self.agent.plan(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 443, in plan
+    full_output = self.llm_chain.predict(callbacks=callbacks, **full_inputs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\llm.py", line 252, in predict
+    return self(kwargs, callbacks=callbacks)[self.output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 149, in __call__
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 143, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\llm.py", line 92, in _call
+    response = self.generate([inputs], run_manager=run_manager)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\llm.py", line 102, in generate
+    return self.llm.generate_prompt(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\base.py", line 167, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\base.py", line 102, in generate
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\base.py", line 94, in generate
+    results = [
+              ^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\base.py", line 95, in <listcomp>
+    self._generate(m, stop=stop, run_manager=run_manager, **kwargs)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\openai.py", line 359, in _generate
+    response = self.completion_with_retry(messages=message_dicts, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\openai.py", line 307, in completion_with_retry
+    return _completion_with_retry(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 314, in iter
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chat_models\openai.py", line 305, in _completion_with_retry
+    return self.client.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\api_resources\chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\api_requestor.py", line 226, in request
+    resp, got_stream = self._interpret_response(result, stream)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\api_requestor.py", line 619, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\api_requestor.py", line 682, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens. However, your messages resulted in 6496 tokens. Please reduce the length of the messages.
+
+
+returned data: 
+	{'answer': '', 'elapse': ''}
+2023-07-03 05:36:59,986 - INFO - 127.0.0.1 - - [03/Jul/2023 05:36:59] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 05:39:48
+2023-07-03 05:39:48,194 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:39:48,202 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 05:40:06,189 - INFO - 
+returned data: 
+	{'answer': '36201488642Èí¼þÔ°ÉçÇøµêÉÏº£ÊÐÐì»ãÇøÌìÔ¿ÇÅÂ·ÃÀÂÞ³Ç¶«ÄÏ100Ã×', 'elapse': '7.077 s'}
+2023-07-03 05:40:06,197 - INFO - 127.0.0.1 - - [03/Jul/2023 05:40:06] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 05:40:34
+2023-07-03 05:40:34,227 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:40:34,228 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 05:41:15,474 - INFO - exception args: ("cannot access local variable 'outputlist' where it is not associated with a value",)Traceback (most recent call last):
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 279, in extract_info
+    answer = agent.run(request_data['messages'][0]['content'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 273, in run
+    return self(args[0], callbacks=callbacks, tags=tags)[_output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 149, in __call__
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 143, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 957, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 820, in _take_next_step
+    observation = tool.run(
+                  ^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\tools\base.py", line 297, in run
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\tools\base.py", line 271, in run
+    else self._run(*tool_args, **tool_kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 157, in _run
+    outputlist = outputlist + code + name + address
+                 ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'outputlist' where it is not associated with a value
+
+
+returned data: 
+	{'answer': '', 'elapse': ''}
+2023-07-03 05:41:15,475 - INFO - 127.0.0.1 - - [03/Jul/2023 05:41:15] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 05:42:08
+2023-07-03 05:42:08,719 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 05:42:08,719 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 05:42:31,814 - INFO - 
+returned data: 
+	{'answer': "Yesterday's route plan included the following stores:\n\n1. Store 1: 052614927811, »¨Ô°Éú»î³¬ÊÐ, ÉÏº£ÊÐÐì»ãÇøºçäîÂ·200ºÅ\n2. Store 2: 10083241, ¹Å±±ÉÌ³¬, Ë®³ÇÄÏÂ·268ºÅ\n3. Store 3: 1008566023, Ñô¹âº£Íå±ãÀûµê, ±¦°²Ô´Â·Î÷ÄÏ²àÑô¹âº£Íå»¨Ô°1¶°A109\n4. Store 4: 10085981337, ·¬Ø®Â·±ãÀûµê, ÉÏº£ÊÐÐì»ãÇø·¬Ø®Â·786ºÅ\n5. Store 5: 1623033433242, äîºÓãþ±ãÀûµê, ÉÏº£ÊÐÐì»ãÇøºçäîÂ·461ºÅ\n6. Store 6: 1682221610018, Ðì»ãÇøäîºÓãþxxx, ¹Å±±Â·ÓëÇÕÖÝ±±Â·½»²æ¿ÚÎ÷±±60Ã×\n7. Store 7: 1684839014381, ¹âÆôÔ°ÇÕÖÝ±±Â·1001ºÅ\n8. Store 8: 36201488642, Èí¼þÔ°ÉçÇøµê, ÉÏº£ÊÐÐì»ãÇøÌìÔ¿ÇÅÂ·ÃÀÂÞ³Ç¶«ÄÏ100Ã×", 'elapse': '17.722 s'}
+2023-07-03 05:42:31,815 - INFO - 127.0.0.1 - - [03/Jul/2023 05:42:31] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 05:43:30,329 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for September is 650 units.', 'elapse': '5.64 s'}
+2023-07-03 05:43:30,329 - INFO - 127.0.0.1 - - [03/Jul/2023 05:43:30] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 05:44:03,674 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for September is 650 units.', 'elapse': '5.14 s'}
+2023-07-03 05:44:03,674 - INFO - 127.0.0.1 - - [03/Jul/2023 05:44:03] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 05:47:19,689 - INFO - 127.0.0.1 - - [03/Jul/2023 05:47:19] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 05:47:23,741 - INFO - 127.0.0.1 - - [03/Jul/2023 05:47:23] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 05:47:32,705 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for September is 650 units.', 'elapse': '6.343 s'}
+2023-07-03 05:47:32,707 - INFO - 127.0.0.1 - - [03/Jul/2023 05:47:32] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 06:20:12,581 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for September is 650 units.', 'elapse': '6.422 s'}
+2023-07-03 06:20:12,581 - INFO - 127.0.0.1 - - [03/Jul/2023 06:20:12] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 06:22:15,667 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for July is 700 units.', 'elapse': '6.325 s'}
+2023-07-03 06:22:15,667 - INFO - 127.0.0.1 - - [03/Jul/2023 06:22:15] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 06:22:43,022 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for June is 600 units.', 'elapse': '4.722 s'}
+2023-07-03 06:22:43,023 - INFO - 127.0.0.1 - - [03/Jul/2023 06:22:43] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 06:22:51,393 - INFO - 127.0.0.1 - - [03/Jul/2023 06:22:51] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 06:23:26,254 - WARNING - Retrying langchain.chat_models.openai.ChatOpenAI.completion_with_retry.<locals>._completion_with_retry in 1.0 seconds as it raised ServiceUnavailableError: The server is overloaded or not ready yet..
+2023-07-03 06:23:32,322 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for March is 700 units.', 'elapse': '36.631 s'}
+2023-07-03 06:23:32,323 - INFO - 127.0.0.1 - - [03/Jul/2023 06:23:32] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 06:28:56,495 - INFO - 127.0.0.1 - - [03/Jul/2023 06:28:56] "[33mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+
+Service on port 5200 started ^_-
+2023-07-03 07:26:27
+2023-07-03 07:26:27,227 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 07:26:27,227 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 07:26:48,129 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for the month of June is 600.', 'elapse': '6.905 s'}
+2023-07-03 07:26:48,141 - INFO - 127.0.0.1 - - [03/Jul/2023 07:26:48] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 07:27:32,551 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for the month of July is 700.', 'elapse': '4.768 s'}
+2023-07-03 07:27:32,557 - INFO - 127.0.0.1 - - [03/Jul/2023 07:27:32] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 07:27:42,192 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for the month of August is 550.', 'elapse': '4.812 s'}
+2023-07-03 07:27:42,192 - INFO - 127.0.0.1 - - [03/Jul/2023 07:27:42] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 07:28:31,213 - INFO - 
+returned data: 
+	{'answer': "Tomorrow's visit plan includes the following stores:\n\n1. Store 1: 052614927811, »¨Ô°Éú»î³¬ÊÐ, ÉÏº£ÊÐÐì»ãÇøºçäîÂ·200ºÅ\n2. Store 2: 10083241, ¹Å±±ÉÌ³¬, Ë®³ÇÄÏÂ·268ºÅ\n3. Store 3: 1008566023, Ñô¹âº£Íå±ãÀûµê, ±¦°²Ô´Â·Î÷ÄÏ²àÑô¹âº£Íå»¨Ô°1¶°A109\n4. Store 4: 10085981337, ·¬Ø®Â·±ãÀûµê, ÉÏº£ÊÐÐì»ãÇø·¬Ø®Â·786ºÅ\n5. Store 5: 1623033433242, äîºÓãþ±ãÀûµê, ÉÏº£ÊÐÐì»ãÇøºçäîÂ·461ºÅ\n6. Store 6: 1682221610018, Ðì»ãÇøäîºÓãþxxx, ¹Å±±Â·ÓëÇÕÖÝ±±Â·½»²æ¿ÚÎ÷±±60Ã×\n7. Store 7: 1684839014381, ¹âÆôÔ°ÇÕÖÝ±±Â·1001ºÅ\n8. Store 8: 36201488642, Èí¼þÔ°ÉçÇøµê, ÉÏº£ÊÐÐì»ãÇøÌìÔ¿ÇÅÂ·ÃÀÂÞ³Ç¶«ÄÏ100Ã×", 'elapse': '18.677 s'}
+2023-07-03 07:28:31,214 - INFO - 127.0.0.1 - - [03/Jul/2023 07:28:31] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 07:30:15,990 - INFO - 
+returned data: 
+	{'answer': 'The first store to visit tomorrow is »¨Ô°Éú»î³¬ÊÐ, located at ÉÏº£ÊÐÐì»ãÇøºçäîÂ·200ºÅ.', 'elapse': '8.564 s'}
+2023-07-03 07:30:15,999 - INFO - 127.0.0.1 - - [03/Jul/2023 07:30:15] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 07:30:32,243 - INFO - 
+returned data: 
+	{'answer': 'The last store to visit tomorrow is Èí¼þÔ°ÉçÇøµê, located at ÉÏº£ÊÐÐì»ãÇøÌìÔ¿ÇÅÂ·ÃÀÂÞ³Ç¶«ÄÏ100Ã×.', 'elapse': '7.832 s'}
+2023-07-03 07:30:32,244 - INFO - 127.0.0.1 - - [03/Jul/2023 07:30:32] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 07:31:43,457 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for last month was 600.', 'elapse': '6.698 s'}
+2023-07-03 07:31:43,473 - INFO - 127.0.0.1 - - [03/Jul/2023 07:31:43] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 07:44:29
+2023-07-03 07:44:29,507 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 07:44:29,515 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 07:45:20,692 - INFO - 127.0.0.1 - - [03/Jul/2023 07:45:20] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 07:45:25,739 - INFO - 127.0.0.1 - - [03/Jul/2023 07:45:25] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 07:45:36,677 - INFO - exception args: ('list index out of range',)Traceback (most recent call last):
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 282, in extract_info
+    answer = agent.run(request_data['messages'][0]['content'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 273, in run
+    return self(args[0], callbacks=callbacks, tags=tags)[_output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 149, in __call__
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 143, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 957, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 820, in _take_next_step
+    observation = tool.run(
+                  ^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\tools\base.py", line 297, in run
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\tools\base.py", line 271, in run
+    else self._run(*tool_args, **tool_kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 193, in _run
+    return  data['data'][0]['name']
+            ~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+returned data: 
+	{'answer': '', 'elapse': ''}
+2023-07-03 07:45:36,677 - INFO - 127.0.0.1 - - [03/Jul/2023 07:45:36] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 07:49:46
+2023-07-03 07:49:46,406 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 07:49:46,407 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 07:49:57,211 - INFO - 127.0.0.1 - - [03/Jul/2023 07:49:57] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 07:50:00,708 - INFO - 127.0.0.1 - - [03/Jul/2023 07:50:00] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 07:50:10,003 - INFO - exception args: ('can only concatenate str (not "dict") to str',)Traceback (most recent call last):
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 283, in extract_info
+    answer = agent.run(request_data['messages'][0]['content'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 273, in run
+    return self(args[0], callbacks=callbacks, tags=tags)[_output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 149, in __call__
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 143, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 957, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 820, in _take_next_step
+    observation = tool.run(
+                  ^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\tools\base.py", line 297, in run
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\tools\base.py", line 271, in run
+    else self._run(*tool_args, **tool_kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 191, in _run
+    print ("ÓÃ»§²éÑ¯µÄÃÅµêÊÇ£º" + data)
+           ~~~~~~~~~~~~^~~~~~
+TypeError: can only concatenate str (not "dict") to str
+
+
+returned data: 
+	{'answer': '', 'elapse': ''}
+2023-07-03 07:50:10,003 - INFO - 127.0.0.1 - - [03/Jul/2023 07:50:10] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 07:57:03
+2023-07-03 07:57:03,555 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 07:57:03,555 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 07:57:21,958 - INFO - exception args: ('list indices must be integers or slices, not str',)Traceback (most recent call last):
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 284, in extract_info
+    answer = agent.run(request_data['messages'][0]['content'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 273, in run
+    return self(args[0], callbacks=callbacks, tags=tags)[_output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 149, in __call__
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 143, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 957, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 820, in _take_next_step
+    observation = tool.run(
+                  ^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\tools\base.py", line 297, in run
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\tools\base.py", line 271, in run
+    else self._run(*tool_args, **tool_kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 191, in _run
+    print ("ÓÃ»§²éÑ¯µÄÃÅµêÊÇ£º" + data['data']['name'])
+                         ~~~~~~~~~~~~^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+
+returned data: 
+	{'answer': '', 'elapse': ''}
+2023-07-03 07:57:21,958 - INFO - 127.0.0.1 - - [03/Jul/2023 07:57:21] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 08:09:30
+2023-07-03 08:09:30,367 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 08:09:30,367 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 08:09:39,271 - INFO - exception args: ('list index out of range',)Traceback (most recent call last):
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 285, in extract_info
+    answer = agent.run(request_data['messages'][0]['content'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 273, in run
+    return self(args[0], callbacks=callbacks, tags=tags)[_output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 149, in __call__
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 143, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 957, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 820, in _take_next_step
+    observation = tool.run(
+                  ^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\tools\base.py", line 297, in run
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\tools\base.py", line 271, in run
+    else self._run(*tool_args, **tool_kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 192, in _run
+    print ("ÓÃ»§²éÑ¯µÄÃÅµêÊÇ£º" + data['data'][0]['Name'])
+                         ~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+
+returned data: 
+	{'answer': '', 'elapse': ''}
+2023-07-03 08:09:39,271 - INFO - 127.0.0.1 - - [03/Jul/2023 08:09:39] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 08:13:08
+2023-07-03 08:13:08,826 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 08:13:08,826 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 08:13:30,080 - INFO - 
+returned data: 
+	{'answer': "The response to your last comment is that the search for '·¬Ø®Â·±ãÀûµê' in the customer database returned the following information: Code: [code], Name: [name], Address: [address].", 'elapse': '6.106 s'}
+2023-07-03 08:13:30,081 - INFO - 127.0.0.1 - - [03/Jul/2023 08:13:30] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 08:14:15,896 - INFO - 127.0.0.1 - - [03/Jul/2023 08:14:15] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 08:14:34,709 - INFO - 
+returned data: 
+	{'answer': "Today's route plan includes the following stores:\n\n1. »¨Ô°Éú»î³¬ÊÐ\n   Address: ÉÏº£ÊÐÐì»ãÇøºçäîÂ·200ºÅ\n\n2. ¹Å±±ÉÌ³¬Ë®³ÇÄÏÂ·µê\n   Address: ÉÏº£ÊÐÐì»ãÇøºçäîÂ·461ºÅ\n\n3. Ñô¹âº£Íå±ãÀûµê\n   Address: ±¦°²Ô´Â·Î÷ÄÏ²àÑô¹âº£Íå»¨Ô°1¶°A109\n\n4. ·¬Ø®Â·±ãÀûµê\n   Address: ÉÏº£ÊÐÐì»ãÇø·¬Ø®Â·786ºÅ\n\n5. äîºÓãþ±ãÀûµê\n   Address: ÉÏº£ÊÐÐì»ãÇøºçäîÂ·461ºÅ\n\n6. Ðì»ãÇøäîºÓãþxxx\n   Address: ¹Å±±Â·ÓëÇÕÖÝ±±Â·½»²æ¿ÚÎ÷±±60Ã×\n\n7. ¹âÆôÔ°ÇÕÖÝ±±Â·µê\n   Address: ÉÏº£ÊÐÐì»ãÇøÌìÔ¿ÇÅÂ·ÃÀÂÞ³Ç¶«ÄÏ100Ã×\n", 'elapse': '14.859 s'}
+2023-07-03 08:14:34,709 - INFO - 127.0.0.1 - - [03/Jul/2023 08:14:34] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 09:53:06
+2023-07-03 09:53:07,016 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 09:53:07,016 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 09:53:15,946 - INFO - 
+returned data: 
+	{'answer': 'The sales achievement for last month was 600.', 'elapse': '5.297 s'}
+2023-07-03 09:53:15,951 - INFO - 127.0.0.1 - - [03/Jul/2023 09:53:15] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 09:54:02
+2023-07-03 09:54:02,458 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 09:54:02,458 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 09:54:17,642 - INFO - 
+returned data: 
+	{'answer': '±¾ÔÂµÄÏúÁ¿ÊÇ700', 'elapse': '4.611 s'}
+2023-07-03 09:54:17,643 - INFO - 127.0.0.1 - - [03/Jul/2023 09:54:17] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 09:54:34,367 - INFO - 
+returned data: 
+	{'answer': '600', 'elapse': '7.365 s'}
+2023-07-03 09:54:34,367 - INFO - 127.0.0.1 - - [03/Jul/2023 09:54:34] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 09:55:00,603 - INFO - 
+returned data: 
+	{'answer': 'Ã÷ÌìµÄ¼Æ»®Â·ÏßÊÇ£º\n\n1. »¨Ô°Éú»î³¬ÊÐ\nµØÖ·£ºÉÏº£ÊÐÐì»ãÇøºçäîÂ·200ºÅ\n\n2. ¹Å±±ÉÌ³¬Ë®³ÇÄÏÂ·±ãÀûµê\nµØÖ·£ºÉÏº£ÊÐÐì»ãÇøºçäîÂ·200ºÅ\n\n3. Ñô¹âº£Íå±ãÀûµê\nµØÖ·£º±¦°²Ô´Â·Î÷ÄÏ²àÑô¹âº£Íå»¨Ô°1¶°A109\n\n4. ·¬Ø®Â·±ãÀûµê\nµØÖ·£ºÉÏº£ÊÐÐì»ãÇø·¬Ø®Â·786ºÅ\n\n5. äîºÓãþ±ãÀûµê\nµØÖ·£ºÉÏº£ÊÐÐì»ãÇøºçäîÂ·461ºÅ\n\n6. Ðì»ãÇøäîºÓãþxxx\nµØÖ·£º¹Å±±Â·ÓëÇÕÖÝ±±Â·½»²æ¿ÚÎ÷±±60Ã×\n\n7. ¹âÆôÔ°ÇÕÖÝ±±Â·\nµØÖ·£ºÉÏº£ÊÐÐì»ãÇøÌìÔ¿ÇÅÂ·ÃÀÂÞ³Ç¶«ÄÏ100Ã×', 'elapse': '14.251 s'}
+2023-07-03 09:55:00,603 - INFO - 127.0.0.1 - - [03/Jul/2023 09:55:00] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 09:55:26,102 - INFO - 
+returned data: 
+	{'answer': 'Ã÷Ìì×îºóÒ»¼ÒÒª°Ý·ÃµÄÃÅµêÊÇÈí¼þÔ°ÉçÇøµê£¬µØÖ·ÊÇÉÏº£ÊÐÐì»ãÇøÌìÔ¿ÇÅÂ·ÃÀÂÞ³Ç¶«ÄÏ100Ã×¡£', 'elapse': '6.719 s'}
+2023-07-03 09:55:26,102 - INFO - 127.0.0.1 - - [03/Jul/2023 09:55:26] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 09:55:45,945 - INFO - 
+returned data: 
+	{'answer': '·¬Ø®Â·±ãÀûµêÊÇÄúµÄÒ»¼Ò±ãÀûµê¡£', 'elapse': '3.929 s'}
+2023-07-03 09:55:45,945 - INFO - 127.0.0.1 - - [03/Jul/2023 09:55:45] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 10:20:15,376 - INFO - 127.0.0.1 - - [03/Jul/2023 10:20:15] "[33mPOST /mifs/.;/services/LogService HTTP/1.0[0m" 404 -
+
+Service on port 5200 started ^_-
+2023-07-03 10:53:40
+2023-07-03 10:53:40,840 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 10:53:40,840 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 10:53:49,582 - INFO - 127.0.0.1 - - [03/Jul/2023 10:53:49] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 10:54:10,431 - INFO - 127.0.0.1 - - [03/Jul/2023 10:54:10] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 10:54:30,025 - INFO - 
+returned data: 
+	{'answer': '½ñÌìµÄÏßÂ·ÊÇ£º\n\n1. »¨Ô°Éú»î³¬ÊÐ - ÉÏº£ÊÐÐì»ãÇøºçäîÂ·200ºÅ\n2. ¹Å±±ÉÌ³¬Ë®³ÇÄÏÂ·µê - ÉÏº£ÊÐÐì»ãÇøºçäîÂ·200ºÅ\n3. Ñô¹âº£Íå±ãÀûµê - ±¦°²Ô´Â·Î÷ÄÏ²àÑô¹âº£Íå»¨Ô°1¶°A109\n4. ·¬Ø®Â·±ãÀûµê - ÉÏº£ÊÐÐì»ãÇø·¬Ø®Â·786ºÅ\n5. äîºÓãþ±ãÀûµê - ÉÏº£ÊÐÐì»ãÇøºçäîÂ·461ºÅ\n6. Ðì»ãÇøäîºÓãþxxx - ¹Å±±Â·ÓëÇÕÖÝ±±Â·½»²æ¿ÚÎ÷±±60Ã×\n7. ¹âÆôÔ°ÇÕÖÝ±±Â·µê - ÉÏº£ÊÐÐì»ãÇøÇÕÖÝ±±Â·1001ºÅ\n8. Èí¼þÔ°ÉçÇøµê - ÉÏº£ÊÐÐì»ãÇøÌìÔ¿ÇÅÂ·ÃÀÂÞ³Ç¶«ÄÏ100Ã×', 'elapse': '15.907 s'}
+2023-07-03 10:54:30,025 - INFO - 127.0.0.1 - - [03/Jul/2023 10:54:30] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 10:55:07,713 - INFO - 
+returned data: 
+	{'answer': '8ÔÂµÄÏúÁ¿Îª550', 'elapse': '5.203 s'}
+2023-07-03 10:55:07,728 - INFO - 127.0.0.1 - - [03/Jul/2023 10:55:07] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 11:58:22
+2023-07-03 11:58:22,662 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 11:58:22,663 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 11:58:48,655 - INFO - 
+returned data: 
+	{'answer': '10085981337·¬Ø®Â·±ãÀûµêÉÏº£ÊÐÐì»ãÇø·¬Ø®Â·786ºÅ', 'elapse': '5.409 s'}
+2023-07-03 11:58:48,656 - INFO - 127.0.0.1 - - [03/Jul/2023 11:58:48] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 11:59:40
+2023-07-03 11:59:40,132 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 11:59:40,132 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 12:00:02,808 - INFO - 
+returned data: 
+	{'answer': '¸ù¾ÝÄúµÄÒªÇó£¬ÎÒ²éÑ¯µ½ÒÔÏÂ±ãÀûµê£º\n\n1. 10085981337·¬Ø®Â·±ãÀûµê\nµØÖ·£ºÉÏº£ÊÐÐì»ãÇø·¬Ø®Â·786ºÅ\n\n2. 1008566023Ñô¹âº£Íå±ãÀûµê\nµØÖ·£º±¦°²Ô´Â·Î÷ÄÏ²àÑô¹âº£Íå»¨Ô°1¶°A109\n\n3. 1623033433242äîºÓãþ±ãÀûµê\nµØÖ·£ºÉÏº£ÊÐÐì»ãÇøºçäîÂ·461ºÅ\n\nÇëÄú´ÓÒÔÉÏÁÐ±íÖÐÑ¡ÔñÒ»¼ÒÃÅµê¡£', 'elapse': '10.25 s'}
+2023-07-03 12:00:02,824 - INFO - 127.0.0.1 - - [03/Jul/2023 12:00:02] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 12:00:35,510 - INFO - 127.0.0.1 - - [03/Jul/2023 12:00:35] "[33mGET /_ignition/execute-solution HTTP/1.0[0m" 404 -
+2023-07-03 12:00:37,339 - INFO - 
+returned data: 
+	{'answer': 'Ñô¹âº£Íå±ãÀûµê', 'elapse': '3.171 s'}
+2023-07-03 12:00:37,339 - INFO - 127.0.0.1 - - [03/Jul/2023 12:00:37] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 12:08:17,407 - INFO - 
+returned data: 
+	{'answer': 'Ñô¹âº£Íå±ãÀûµêÎ»ÓÚ±¦°²Ô´Â·Î÷ÄÏ²àÑô¹âº£Íå»¨Ô°1¶°A109¡£', 'elapse': '8.287 s'}
+2023-07-03 12:08:17,408 - INFO - 127.0.0.1 - - [03/Jul/2023 12:08:17] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 12:09:11
+2023-07-03 12:09:11,016 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 12:09:11,017 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 12:09:33,667 - INFO - 
+returned data: 
+	{'answer': '¸ù¾Ý²éÑ¯½á¹û£¬ÄúÓÐÒÔÏÂ±ãÀûµê¿ÉÑ¡Ôñ£º\n\n1. 10085981337·¬Ø®Â·±ãÀûµê\nµØÖ·£ºÉÏº£ÊÐÐì»ãÇø·¬Ø®Â·786ºÅ\n\n2. 1008566023Ñô¹âº£Íå±ãÀûµê\nµØÖ·£º±¦°²Ô´Â·Î÷ÄÏ²àÑô¹âº£Íå»¨Ô°1¶°A109\n\n3. 1623033433242äîºÓãþ±ãÀûµê\nµØÖ·£ºÉÏº£ÊÐÐì»ãÇøºçäîÂ·461ºÅ\n\nÇëÄúÈ·ÈÏ´ÓÒÔÉÏÁÐ±íÖÐÑ¡ÔñÒ»¼ÒÃÅµê¡£', 'elapse': '9.375 s'}
+2023-07-03 12:09:33,679 - INFO - 127.0.0.1 - - [03/Jul/2023 12:09:33] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 12:10:23,014 - INFO - 
+returned data: 
+	{'answer': '¸ù¾ÝÄúµÄÑ¡Ôñ£¬×îÖÕÃÅµêÎª×îáá¤Î¤â¤Î', 'elapse': '6.597 s'}
+2023-07-03 12:10:23,014 - INFO - 127.0.0.1 - - [03/Jul/2023 12:10:23] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 12:10:40
+2023-07-03 12:10:40,046 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 12:10:40,047 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 12:11:15,325 - INFO - 
+returned data: 
+	{'answer': '¸ù¾Ý²éÑ¯½á¹û£¬ÄúÓÐÒÔÏÂ±ãÀûµê¿ÉÑ¡Ôñ£º\n\n1. 10085981337·¬Ø®Â·±ãÀûµê\nµØÖ·£ºÉÏº£ÊÐÐì»ãÇø·¬Ø®Â·786ºÅ\n\n2. 1008566023Ñô¹âº£Íå±ãÀûµê\nµØÖ·£º±¦°²Ô´Â·Î÷ÄÏ²àÑô¹âº£Íå»¨Ô°1¶°A109\n\n3. 1623033433242äîºÓãþ±ãÀûµê\nµØÖ·£ºÉÏº£ÊÐÐì»ãÇøºçäîÂ·461ºÅ\n\nÇëÄúÈ·ÈÏ´ÓÒÔÉÏÁÐ±íÖÐÑ¡ÔñÒ»¼ÒÃÅµê¡£', 'elapse': '9.657 s'}
+2023-07-03 12:11:15,327 - INFO - 127.0.0.1 - - [03/Jul/2023 12:11:15] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 12:11:23,984 - INFO - exception args: ('Could not parse LLM output: {\n    "action": "Choose a store from a store list"\n}',)Traceback (most recent call last):
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\conversational_chat\output_parser.py", line 18, in parse
+    action, action_input = response["action"], response["action_input"]
+                                               ~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'action_input'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 312, in extract_info
+    answer = agent.run(request_data['messages'][0]['content'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 273, in run
+    return self(args[0], callbacks=callbacks, tags=tags)[_output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 149, in __call__
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 143, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 957, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 773, in _take_next_step
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 762, in _take_next_step
+    output = self.agent.plan(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 444, in plan
+    return self.output_parser.parse(full_output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\conversational_chat\output_parser.py", line 24, in parse
+    raise OutputParserException(f"Could not parse LLM output: {text}") from e
+langchain.schema.OutputParserException: Could not parse LLM output: {
+    "action": "Choose a store from a store list"
+}
+
+
+returned data: 
+	{'answer': '', 'elapse': ''}
+2023-07-03 12:11:23,985 - INFO - 127.0.0.1 - - [03/Jul/2023 12:11:23] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-03 12:19:26
+2023-07-03 12:19:26,356 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-03 12:19:26,356 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-03 12:19:30,074 - INFO - 127.0.0.1 - - [03/Jul/2023 12:19:30] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 12:19:43,340 - INFO - 
+returned data: 
+	{'answer': 'The response to your last comment is that you need to print the store list and ask the user to choose the final store.', 'elapse': '4.094 s'}
+2023-07-03 12:19:43,340 - INFO - 127.0.0.1 - - [03/Jul/2023 12:19:43] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 12:25:32,183 - INFO - 
+returned data: 
+	{'answer': 'ÄúÐèÒª´òÓ¡ÃÅµêÁÐ±í£¬²¢Ñ¯ÎÊÓÃ»§×îÖÕÑ¡ÔñÄÄ¼ÒÃÅµê¡£', 'elapse': '3.999 s'}
+2023-07-03 12:25:32,184 - INFO - 127.0.0.1 - - [03/Jul/2023 12:25:32] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 12:25:41,090 - INFO - 
+returned data: 
+	{'answer': 'ÄúÐèÒª´òÓ¡ÃÅµêÁÐ±í£¬²¢Ñ¯ÎÊÓÃ»§×îÖÕÑ¡ÔñÄÄ¼ÒÃÅµê¡£', 'elapse': '4.469 s'}
+2023-07-03 12:25:41,099 - INFO - 127.0.0.1 - - [03/Jul/2023 12:25:41] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 12:25:48,121 - INFO - 
+returned data: 
+	{'answer': 'ÄúÐèÒª´òÓ¡ÃÅµêÁÐ±í£¬²¢Ñ¯ÎÊÓÃ»§×îÖÕÑ¡ÔñÄÄ¼ÒÃÅµê¡£', 'elapse': '3.703 s'}
+2023-07-03 12:25:48,121 - INFO - 127.0.0.1 - - [03/Jul/2023 12:25:48] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 12:25:52,044 - INFO - 127.0.0.1 - - [03/Jul/2023 12:25:52] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 12:26:04,449 - INFO - 
+returned data: 
+	{'answer': 'ÄúÐèÒª´òÓ¡ÃÅµêÁÐ±í£¬²¢Ñ¯ÎÊÓÃ»§×îÖÕÑ¡ÔñÄÄ¼ÒÃÅµê¡£', 'elapse': '3.516 s'}
+2023-07-03 12:26:04,449 - INFO - 127.0.0.1 - - [03/Jul/2023 12:26:04] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 12:26:17,730 - INFO - 
+returned data: 
+	{'answer': 'the last one', 'elapse': '1.563 s'}
+2023-07-03 12:26:17,730 - INFO - 127.0.0.1 - - [03/Jul/2023 12:26:17] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-03 12:27:53,886 - INFO - 127.0.0.1 - - [03/Jul/2023 12:27:53] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-03 12:27:57,137 - INFO - 127.0.0.1 - - [03/Jul/2023 12:27:57] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+
+Service on port 5200 started ^_-
+2023-07-04 02:07:34
+2023-07-04 02:07:34,573 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-04 02:07:34,573 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-04 02:08:09,720 - INFO - 
+returned data: 
+	{'answer': 'The response to your last comment is that you need to print the store list and ask the user to choose the final store.', 'elapse': '3.456 s'}
+2023-07-04 02:08:09,721 - INFO - 127.0.0.1 - - [04/Jul/2023 02:08:09] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 02:09:30,232 - INFO - 127.0.0.1 - - [04/Jul/2023 02:09:30] "[33mGET / HTTP/1.0[0m" 404 -
+
+Service on port 5200 started ^_-
+2023-07-04 04:19:20
+2023-07-04 04:19:20,541 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-04 04:19:20,541 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-04 04:19:33,773 - INFO - 
+returned data: 
+	{'answer': '550', 'elapse': '5.319 s'}
+2023-07-04 04:19:33,774 - INFO - 127.0.0.1 - - [04/Jul/2023 04:19:33] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:19:48,271 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '4.234 s'}
+2023-07-04 04:19:48,272 - INFO - 127.0.0.1 - - [04/Jul/2023 04:19:48] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:19:55,822 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '3.302 s'}
+2023-07-04 04:19:55,823 - INFO - 127.0.0.1 - - [04/Jul/2023 04:19:55] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:20:16,785 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '3.662 s'}
+2023-07-04 04:20:16,785 - INFO - 127.0.0.1 - - [04/Jul/2023 04:20:16] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:21:15,054 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '4.511 s'}
+2023-07-04 04:21:15,055 - INFO - 127.0.0.1 - - [04/Jul/2023 04:21:15] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:22:38,288 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '4.605 s'}
+2023-07-04 04:22:38,289 - INFO - 127.0.0.1 - - [04/Jul/2023 04:22:38] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:23:12,682 - INFO - 127.0.0.1 - - [04/Jul/2023 04:23:12] "[33mGET /api/chatgpt/v2SendParamsAuthorizationHeadersBodyPre-request HTTP/1.0[0m" 404 -
+2023-07-04 04:23:26,554 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '3.295 s'}
+2023-07-04 04:23:26,555 - INFO - 127.0.0.1 - - [04/Jul/2023 04:23:26] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:24:56,099 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '3.688 s'}
+2023-07-04 04:24:56,099 - INFO - 127.0.0.1 - - [04/Jul/2023 04:24:56] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:25:31,670 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '3.388 s'}
+2023-07-04 04:25:31,670 - INFO - 127.0.0.1 - - [04/Jul/2023 04:25:31] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:25:36,880 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '3.363 s'}
+2023-07-04 04:25:36,880 - INFO - 127.0.0.1 - - [04/Jul/2023 04:25:36] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:25:37,361 - INFO - 127.0.0.1 - - [04/Jul/2023 04:25:37] "[33mGET /api/chatgpt/v2de/de/od/d HTTP/1.0[0m" 404 -
+2023-07-04 04:25:42,188 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '3.736 s'}
+2023-07-04 04:25:42,188 - INFO - 127.0.0.1 - - [04/Jul/2023 04:25:42] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:28:17,024 - INFO - 127.0.0.1 - - [04/Jul/2023 04:28:17] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-04 04:28:44,970 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '4.13 s'}
+2023-07-04 04:28:44,970 - INFO - 127.0.0.1 - - [04/Jul/2023 04:28:44] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:29:11,807 - INFO - 127.0.0.1 - - [04/Jul/2023 04:29:11] "[33mGET /api/chatgpt/v2ParamsAuthorizationHeadersBodyPre-request HTTP/1.0[0m" 404 -
+2023-07-04 04:29:15,065 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '4.27 s'}
+2023-07-04 04:29:15,065 - INFO - 127.0.0.1 - - [04/Jul/2023 04:29:15] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:30:26,977 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '5.152 s'}
+2023-07-04 04:30:26,977 - INFO - 127.0.0.1 - - [04/Jul/2023 04:30:26] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:30:32,587 - INFO - 127.0.0.1 - - [04/Jul/2023 04:30:32] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-04 04:30:34,263 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '4.056 s'}
+2023-07-04 04:30:34,264 - INFO - 127.0.0.1 - - [04/Jul/2023 04:30:34] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 04:30:41,747 - INFO - 
+returned data: 
+	{'answer': '´à´àöèÉ¢×°¹²ÓÐ10ÖÖ¿ÚÎ¶¡£', 'elapse': '3.79 s'}
+2023-07-04 04:30:41,747 - INFO - 127.0.0.1 - - [04/Jul/2023 04:30:41] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-04 04:59:40
+2023-07-04 04:59:40,642 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-04 04:59:40,642 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-04 04:59:59,753 - INFO - 127.0.0.1 - - [04/Jul/2023 04:59:59] "[33mGET / HTTP/1.0[0m" 404 -
+
+Service on port 5200 started ^_-
+2023-07-04 05:10:29
+2023-07-04 05:10:29,248 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-04 05:10:29,249 - INFO - [33mPress CTRL+C to quit[0m
+
+Service on port 5200 started ^_-
+2023-07-04 05:11:44
+2023-07-04 05:11:44,438 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-04 05:11:44,438 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-04 05:12:04,721 - INFO - 
+returned data: 
+	{'answer': 'ÉÏ¸öÔÂµÄÏúÁ¿ÊÇ600', 'elapse': '4.815 s'}
+2023-07-04 05:12:04,722 - INFO - 127.0.0.1 - - [04/Jul/2023 05:12:04] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 05:12:08,976 - INFO - 127.0.0.1 - - [04/Jul/2023 05:12:08] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-04 05:12:50,357 - INFO - 127.0.0.1 - - [04/Jul/2023 05:12:50] "[33mGET / HTTP/1.0[0m" 404 -
+2023-07-04 05:12:57,357 - INFO - 
+returned data: 
+	{'answer': 'ÉÏ¸öÔÂµÄÏúÁ¿ÊÇ600', 'elapse': '3.982 s'}
+2023-07-04 05:12:57,357 - INFO - 127.0.0.1 - - [04/Jul/2023 05:12:57] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-04 05:17:29
+2023-07-04 05:17:29,302 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-04 05:17:29,302 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-04 05:17:55,976 - INFO - 
+returned data: 
+	{'answer': 'ÕâÖÜÎåµÄÏßÂ·°üÀ¨£º\n1. »¨Ô°Éú»î³¬ÊÐÉÏº£ÊÐÐì»ãÇøºçäîÂ·200ºÅ\n2. ¹Å±±ÉÌ³¬Ë®³ÇÄÏÂ·268ºÅ\n3. Ñô¹âº£Íå±ãÀûµê±¦°²Ô´Â·Î÷ÄÏ²àÑô¹âº£Íå»¨Ô°1¶°A109\n4. ·¬Ø®Â·±ãÀûµêÉÏº£ÊÐÐì»ãÇø·¬Ø®Â·786ºÅ\n5. äîºÓãþ±ãÀûµêÉÏº£ÊÐÐì»ãÇøºçäîÂ·461ºÅ\n6. Ðì»ãÇøäîºÓãþxxx¹Å±±Â·ÓëÇÕÖÝ±±Â·½»²æ¿ÚÎ÷±±60Ã×\n7. ¹âÆôÔ°ÇÕÖÝ±±Â·1001ºÅ\n8. Èí¼þÔ°ÉçÇøµêÉÏº£ÊÐÐì»ãÇøÌìÔ¿ÇÅÂ·ÃÀÂÞ³Ç¶«ÄÏ100Ã×', 'elapse': '10.327 s'}
+2023-07-04 05:17:55,977 - INFO - 127.0.0.1 - - [04/Jul/2023 05:17:55] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-04 05:19:55
+2023-07-04 05:19:55,565 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-04 05:19:55,565 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-04 05:20:24,975 - INFO - 
+returned data: 
+	{'answer': 'ÕâÖÜÎåµÄÏßÂ·°üÀ¨£º\n\n- »¨Ô°Éú»î³¬ÊÐ£¬ÉÏº£ÊÐÐì»ãÇøºçäîÂ·200ºÅ\n- ¹Å±±ÉÌ³¬£¬Ë®³ÇÄÏÂ·268ºÅ\n- Ñô¹âº£Íå±ãÀûµê£¬±¦°²Ô´Â·Î÷ÄÏ²àÑô¹âº£Íå»¨Ô°1¶°A109\n- ·¬Ø®Â·±ãÀûµê£¬ÉÏº£ÊÐÐì»ãÇø·¬Ø®Â·786ºÅ\n- äîºÓãþ±ãÀûµê£¬ÉÏº£ÊÐÐì»ãÇøºçäîÂ·461ºÅ\n- Ðì»ãÇøäîºÓãþxxx£¬¹Å±±Â·ÓëÇÕÖÝ±±Â·½»²æ¿ÚÎ÷±±60Ã×\n- ¹âÆôÔ°£¬ÇÕÖÝ±±Â·1001ºÅ\n- Èí¼þÔ°ÉçÇøµê£¬ÉÏº£ÊÐÐì»ãÇøÌìÔ¿ÇÅÂ·ÃÀÂÞ³Ç¶«ÄÏ100Ã×', 'elapse': '10.382 s'}
+2023-07-04 05:20:24,976 - INFO - 127.0.0.1 - - [04/Jul/2023 05:20:24] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 05:20:54,045 - INFO - 
+returned data: 
+	{'answer': 'ÇëÄú´ÓÒÔÏÂÃÅµêÁÐ±íÖÐÑ¡ÔñÒ»¼ÒÃÅµê£º\n\n1. 10085981337 ·¬Ø®Â·±ãÀûµê ÉÏº£ÊÐÐì»ãÇø·¬Ø®Â·786ºÅ\n2. 1008566023 Ñô¹âº£Íå±ãÀûµê ±¦°²Ô´Â·Î÷ÄÏ²àÑô¹âº£Íå»¨Ô°1¶°A109\n3. 1623033433242 äîºÓãþ±ãÀûµê ÉÏº£ÊÐÐì»ãÇøºçäîÂ·461ºÅ', 'elapse': '6.078 s'}
+2023-07-04 05:20:54,046 - INFO - 127.0.0.1 - - [04/Jul/2023 05:20:54] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 05:21:09,998 - INFO - exception args: ('Could not parse LLM output: {\n    "action": "Choose a store from a store list"\n}',)Traceback (most recent call last):
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\conversational_chat\output_parser.py", line 18, in parse
+    action, action_input = response["action"], response["action_input"]
+                                               ~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'action_input'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 313, in extract_info
+    answer = agent.run(request_data['messages'][0]['content'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 273, in run
+    return self(args[0], callbacks=callbacks, tags=tags)[_output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 149, in __call__
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 143, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 957, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 773, in _take_next_step
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 762, in _take_next_step
+    output = self.agent.plan(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 444, in plan
+    return self.output_parser.parse(full_output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\conversational_chat\output_parser.py", line 24, in parse
+    raise OutputParserException(f"Could not parse LLM output: {text}") from e
+langchain.schema.OutputParserException: Could not parse LLM output: {
+    "action": "Choose a store from a store list"
+}
+
+
+returned data: 
+	{'answer': '', 'elapse': ''}
+2023-07-04 05:21:09,999 - INFO - 127.0.0.1 - - [04/Jul/2023 05:21:09] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 05:21:26,113 - INFO - exception args: ('Could not parse LLM output: {\n    "action": "Choose a store from a store list"\n}',)Traceback (most recent call last):
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\conversational_chat\output_parser.py", line 18, in parse
+    action, action_input = response["action"], response["action_input"]
+                                               ~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'action_input'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 313, in extract_info
+    answer = agent.run(request_data['messages'][0]['content'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 273, in run
+    return self(args[0], callbacks=callbacks, tags=tags)[_output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 149, in __call__
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 143, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 957, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 773, in _take_next_step
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 762, in _take_next_step
+    output = self.agent.plan(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 444, in plan
+    return self.output_parser.parse(full_output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\conversational_chat\output_parser.py", line 24, in parse
+    raise OutputParserException(f"Could not parse LLM output: {text}") from e
+langchain.schema.OutputParserException: Could not parse LLM output: {
+    "action": "Choose a store from a store list"
+}
+
+
+returned data: 
+	{'answer': '', 'elapse': ''}
+2023-07-04 05:21:26,113 - INFO - 127.0.0.1 - - [04/Jul/2023 05:21:26] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 05:21:34,891 - INFO - exception args: ('Could not parse LLM output: {\n    "action": "Choose a store from a store list"\n}',)Traceback (most recent call last):
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\conversational_chat\output_parser.py", line 18, in parse
+    action, action_input = response["action"], response["action_input"]
+                                               ~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'action_input'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\eBest\Agent\MiniSFAAPI.py", line 313, in extract_info
+    answer = agent.run(request_data['messages'][0]['content'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 273, in run
+    return self(args[0], callbacks=callbacks, tags=tags)[_output_key]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 149, in __call__
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\chains\base.py", line 143, in __call__
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 957, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 773, in _take_next_step
+    raise e
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 762, in _take_next_step
+    output = self.agent.plan(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\agent.py", line 444, in plan
+    return self.output_parser.parse(full_output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\phil.li\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain\agents\conversational_chat\output_parser.py", line 24, in parse
+    raise OutputParserException(f"Could not parse LLM output: {text}") from e
+langchain.schema.OutputParserException: Could not parse LLM output: {
+    "action": "Choose a store from a store list"
+}
+
+
+returned data: 
+	{'answer': '', 'elapse': ''}
+2023-07-04 05:21:34,891 - INFO - 127.0.0.1 - - [04/Jul/2023 05:21:34] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 05:22:58,225 - INFO - 
+returned data: 
+	{'answer': 'ÓÃ»§Ñ¡ÔñÁË10085981337·¬Ø®Â·±ãÀûµêÉÏº£ÊÐÐì»ãÇø·¬Ø®Â·786ºÅ', 'elapse': '6.878 s'}
+2023-07-04 05:22:58,226 - INFO - 127.0.0.1 - - [04/Jul/2023 05:22:58] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-04 08:30:04
+
+Service on port 5200 started ^_-
+2023-07-04 08:33:35
+
+Service on port 5200 started ^_-
+2023-07-04 08:34:39
+
+Service on port 5200 started ^_-
+2023-07-04 08:52:39
+2023-07-04 08:52:40,108 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5200
+ * Running on https://10.0.19.5:5200
+2023-07-04 08:52:40,109 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-04 08:52:40,117 - INFO -  * Restarting with watchdog (windowsapi)
+
+Service on port 5200 started ^_-
+2023-07-04 08:52:43
+2023-07-04 08:52:43,206 - WARNING -  * Debugger is active!
+2023-07-04 08:52:43,208 - INFO -  * Debugger PIN: 912-562-189
+2023-07-04 08:56:54,553 - INFO -  * Detected change in 'C:\\Users\\phil.li\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\__init__.py', reloading
+2023-07-04 08:56:54,562 - INFO -  * Detected change in 'C:\\Users\\phil.li\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\decoder.py', reloading
+2023-07-04 08:56:55,616 - INFO -  * Restarting with watchdog (windowsapi)
+
+Service on port 5200 started ^_-
+2023-07-04 08:57:00
+2023-07-04 08:57:00,202 - WARNING -  * Debugger is active!
+2023-07-04 08:57:00,205 - INFO -  * Debugger PIN: 912-562-189
+2023-07-04 09:05:21,255 - INFO -  * Detected change in 'c:\\eBest\\Agent\\MiniSFAAPI.py', reloading
+2023-07-04 09:05:21,256 - INFO -  * Detected change in 'c:\\eBest\\Agent\\MiniSFAAPI.py', reloading
+2023-07-04 09:05:21,256 - INFO -  * Detected change in 'c:\\eBest\\Agent\\MiniSFAAPI.py', reloading
+2023-07-04 09:05:21,257 - INFO -  * Detected change in 'c:\\eBest\\Agent\\MiniSFAAPI.py', reloading
+2023-07-04 09:05:21,947 - INFO -  * Restarting with watchdog (windowsapi)
+
+Service on port 5200 started ^_-
+2023-07-04 09:05:26
+2023-07-04 09:05:26,494 - WARNING -  * Debugger is active!
+2023-07-04 09:05:26,497 - INFO -  * Debugger PIN: 912-562-189
+2023-07-04 09:06:32,482 - INFO -  * Detected change in 'c:\\eBest\\Agent\\AgentTest.py', reloading
+2023-07-04 09:06:33,234 - INFO -  * Restarting with watchdog (windowsapi)
+
+Service on port 5200 started ^_-
+2023-07-04 09:06:37
+2023-07-04 09:06:37,424 - WARNING -  * Debugger is active!
+2023-07-04 09:06:37,429 - INFO -  * Debugger PIN: 912-562-189

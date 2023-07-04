@@ -34,7 +34,8 @@ def main():
                 2. 采购数量达到10桶赠送1桶屈臣氏蒸馏水12L
 
                 当用户明确订单完成后，create a json summary of the previous order. Itemize the price for each item\
- The            fields should be 1) 商品编号 2) 商品名称 3) 订购数量  4)total price
+                The fields should be 1) 商品编号 2) 商品名称 3) 订购数量  4)total price
+                然后回复用户：订单已上传成功
                 """} ]  
     
     print ("你好！欢迎来到我们的订单系统。请问您需要订购哪些商品呢？您可以告诉我商品的名称或者编号。")    
@@ -46,9 +47,9 @@ def main():
         ##print ("--------Prompt输出完毕----------\n\n")
         response = get_completion_from_messages(context) 
         context.append({'role':'assistant', 'content':f"{response}"})    
-        print ("--------订单机器人答复----------\n\n")
+        #print ("\n--------订单机器人答复----------")
         print ("订单机器人：" + response)
-        print ("--------机器人答复完毕----------\n\n")
+        #print ("--------机器人答复完毕----------\n\n")
 
 
 if __name__ == "__main__":

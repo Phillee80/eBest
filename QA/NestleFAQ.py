@@ -29,7 +29,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
 logging.basicConfig(filename='log.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "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"
 
 
 
@@ -40,7 +40,7 @@ def extract_info():
     answer = ""
     elapse = ""
 
-
+    print ("收到请求没？")
     #嵌入问答代码
     # loader = PyPDFLoader("C:/Python/FAQ.pdf")
     # loader = UnstructuredPowerPointLoader("C:/Users/phil.li/Desktop/Product.pptx")

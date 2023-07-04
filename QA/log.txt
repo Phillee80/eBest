@@ -1,0 +1,104 @@
+
+Service on port 5200 started ^_-
+2023-07-04 04:57:37
+2023-07-04 04:57:37,740 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-04 04:57:37,741 - INFO - [33mPress CTRL+C to quit[0m
+
+Service on port 5200 started ^_-
+2023-07-04 05:13:20
+2023-07-04 05:13:20,826 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-04 05:13:20,826 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-04 05:13:52,107 - WARNING - Created a chunk of size 285, which is longer than the specified 5
+2023-07-04 05:13:52,107 - WARNING - Created a chunk of size 436, which is longer than the specified 5
+2023-07-04 05:13:52,107 - WARNING - Created a chunk of size 328, which is longer than the specified 5
+2023-07-04 05:13:52,107 - WARNING - Created a chunk of size 347, which is longer than the specified 5
+2023-07-04 05:13:52,107 - WARNING - Created a chunk of size 320, which is longer than the specified 5
+2023-07-04 05:13:52,107 - WARNING - Created a chunk of size 394, which is longer than the specified 5
+2023-07-04 05:13:52,107 - WARNING - Created a chunk of size 347, which is longer than the specified 5
+2023-07-04 05:13:52,107 - WARNING - Created a chunk of size 271, which is longer than the specified 5
+2023-07-04 05:13:52,107 - WARNING - Created a chunk of size 258, which is longer than the specified 5
+2023-07-04 05:13:52,108 - WARNING - Created a chunk of size 257, which is longer than the specified 5
+2023-07-04 05:13:52,108 - WARNING - Created a chunk of size 259, which is longer than the specified 5
+2023-07-04 05:13:52,233 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-07-04 05:13:52,234 - INFO - Running Chroma using direct local API.
+2023-07-04 05:13:52,255 - WARNING - Using embedded DuckDB without persistence: data will be transient
+2023-07-04 05:13:52,319 - INFO - Successfully imported ClickHouse Connect C data optimizations
+2023-07-04 05:13:52,332 - INFO - Successfully import ClickHouse Connect C/Numpy optimizations
+2023-07-04 05:13:52,357 - INFO - Using orjson library for writing JSON byte strings
+2023-07-04 05:14:01,980 - INFO - 
+returned data: 
+	{'answer': {'query': '´à´àöèÉ¢×°¶¼ÓĞÄÄĞ©¿ÚÎ¶£¿', 'result': '´à´àöèÉ¢×°ÓĞÈıÖÖ¿ÚÎ¶£ºÇÉ¿ËÁ¦¿ÚÎ¶¡¢»¨Éú¿ÚÎ¶ºÍÅ£ÄÌ¿ÚÎ¶¡£Äú¿ÉÒÔÍ¨¹ıÒÔÏÂÁ´½Ó²é¿´²úÆ·µÄÏêÏ¸ĞÅÏ¢ºÍÍ¼Æ¬£º\n\nÇÉ¿ËÁ¦¿ÚÎ¶£ºhttps://mdlz-public-read.oss-cn-shanghai.aliyuncs.com/sfa2/uat/mondelez/20230619/Admin/0/²úÆ·Ô¤ÀÀÍ¼/660835f0fd2a46048ec7cf63b44d1806.jpg\n»¨Éú¿ÚÎ¶£ºhttps://mdlz-public-read.oss-cn-shanghai.aliyuncs.com/sfa2/uat/mondelez/20230619/Admin/0/²úÆ·Ô¤ÀÀÍ¼/b06277ff9c3c4f78836cf09d5a1dc293.jpg\nÅ£ÄÌ¿ÚÎ¶£ºhttps://mdlz-public-read.oss-cn-shanghai.aliyuncs.com/sfa2/uat/mondelez/20230619/Admin/0/²úÆ·Ô¤ÀÀÍ¼/b06277ff9c3c4f78836cf09d5a1dc293.jpg'}, 'elapse': '7.73 s'}
+2023-07-04 05:14:01,981 - INFO - 127.0.0.1 - - [04/Jul/2023 05:14:01] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+
+Service on port 5200 started ^_-
+2023-07-04 05:14:32
+2023-07-04 05:14:32,330 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5200
+ * Running on http://10.0.19.5:5200
+2023-07-04 05:14:32,331 - INFO - [33mPress CTRL+C to quit[0m
+2023-07-04 05:14:41,062 - WARNING - Created a chunk of size 285, which is longer than the specified 5
+2023-07-04 05:14:41,062 - WARNING - Created a chunk of size 436, which is longer than the specified 5
+2023-07-04 05:14:41,062 - WARNING - Created a chunk of size 328, which is longer than the specified 5
+2023-07-04 05:14:41,063 - WARNING - Created a chunk of size 347, which is longer than the specified 5
+2023-07-04 05:14:41,063 - WARNING - Created a chunk of size 320, which is longer than the specified 5
+2023-07-04 05:14:41,063 - WARNING - Created a chunk of size 394, which is longer than the specified 5
+2023-07-04 05:14:41,063 - WARNING - Created a chunk of size 347, which is longer than the specified 5
+2023-07-04 05:14:41,063 - WARNING - Created a chunk of size 271, which is longer than the specified 5
+2023-07-04 05:14:41,064 - WARNING - Created a chunk of size 258, which is longer than the specified 5
+2023-07-04 05:14:41,064 - WARNING - Created a chunk of size 257, which is longer than the specified 5
+2023-07-04 05:14:41,064 - WARNING - Created a chunk of size 259, which is longer than the specified 5
+2023-07-04 05:14:41,157 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-07-04 05:14:41,217 - INFO - Running Chroma using direct local API.
+2023-07-04 05:14:41,237 - WARNING - Using embedded DuckDB without persistence: data will be transient
+2023-07-04 05:14:41,252 - INFO - Successfully imported ClickHouse Connect C data optimizations
+2023-07-04 05:14:41,253 - INFO - Successfully import ClickHouse Connect C/Numpy optimizations
+2023-07-04 05:14:41,262 - INFO - Using orjson library for writing JSON byte strings
+2023-07-04 05:14:51,155 - INFO - 
+returned data: 
+	{'answer': {'query': '´à´àöèÉ¢×°¶¼ÓĞÄÄĞ©¿ÚÎ¶£¿', 'result': '´à´àöèÉ¢×°ÓĞÈıÖÖ¿ÚÎ¶£ºÇÉ¿ËÁ¦¿ÚÎ¶£¬»¨Éú¿ÚÎ¶ºÍÅ£ÄÌ¿ÚÎ¶¡£ÕâĞ©¿ÚÎ¶·Ö±ğ¶ÔÓ¦×ÅÈ¸³²²úÆ·´úÂëºÍÌõĞÎÂë£¬¾ßÌåÈçÏÂ£º\n- ÇÉ¿ËÁ¦¿ÚÎ¶£ºÈ¸³²²úÆ·´úÂë12458252£¬ÌõĞÎÂë06917878031361¡£\n- »¨Éú¿ÚÎ¶£ºÈ¸³²²úÆ·´úÂë12458320£¬ÌõĞÎÂë06917878039640¡£\n- Å£ÄÌ¿ÚÎ¶£ºÈ¸³²²úÆ·´úÂë12458087£¬ÌõĞÎÂë06917878039633¡£\n\nÄã¿ÉÒÔµã»÷ÒÔÏÂÁ´½Ó²é¿´²úÆ·Ô¤ÀÀÍ¼£º\n[µã»÷²é¿´É¢×°´à´àöèÇÉ¿ËÁ¦¿ÚÎ¶Íş»¯](https://mdlz-public-read.oss-cn-shanghai.aliyuncs.com/sfa2/uat/mondelez/20230619/Admin/0/²úÆ·Ô¤ÀÀÍ¼/b06277ff9c3c4f78836cf09d5a1dc293.jpg)'}, 'elapse': '7.975 s'}
+2023-07-04 05:14:51,156 - INFO - 127.0.0.1 - - [04/Jul/2023 05:14:51] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 05:15:25,420 - WARNING - Created a chunk of size 285, which is longer than the specified 5
+2023-07-04 05:15:25,420 - WARNING - Created a chunk of size 436, which is longer than the specified 5
+2023-07-04 05:15:25,420 - WARNING - Created a chunk of size 328, which is longer than the specified 5
+2023-07-04 05:15:25,420 - WARNING - Created a chunk of size 347, which is longer than the specified 5
+2023-07-04 05:15:25,420 - WARNING - Created a chunk of size 320, which is longer than the specified 5
+2023-07-04 05:15:25,420 - WARNING - Created a chunk of size 394, which is longer than the specified 5
+2023-07-04 05:15:25,421 - WARNING - Created a chunk of size 347, which is longer than the specified 5
+2023-07-04 05:15:25,421 - WARNING - Created a chunk of size 271, which is longer than the specified 5
+2023-07-04 05:15:25,421 - WARNING - Created a chunk of size 258, which is longer than the specified 5
+2023-07-04 05:15:25,421 - WARNING - Created a chunk of size 257, which is longer than the specified 5
+2023-07-04 05:15:25,421 - WARNING - Created a chunk of size 259, which is longer than the specified 5
+2023-07-04 05:15:25,452 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-07-04 05:15:25,454 - INFO - Running Chroma using direct local API.
+2023-07-04 05:15:25,454 - WARNING - Using embedded DuckDB without persistence: data will be transient
+2023-07-04 05:15:35,554 - INFO - 
+returned data: 
+	{'answer': {'query': '´à´àöèÉ¢×°¶¼ÓĞÄÄĞ©¿ÚÎ¶£¿', 'result': '´à´àöèÉ¢×°ÓĞÇÉ¿ËÁ¦¿ÚÎ¶¡¢»¨Éú¿ÚÎ¶ºÍÅ£ÄÌ¿ÚÎ¶ÈıÖÖ¿ÚÎ¶¡£Äú¿ÉÒÔµã»÷ÒÔÏÂÁ´½Ó²é¿´ÏêÏ¸ĞÅÏ¢£º\n[´à´àöèÍş»¯É¢³Æ×°ÇÉ¿ËÁ¦¿ÚÎ¶²úÆ·Á´½Ó](https://mdlz-public-read.oss-cn-shanghai.aliyuncs.com/sfa2/uat/mondelez/20230619/Admin/0/²úÆ·Ô¤ÀÀÍ¼/660835f0fd2a46048ec7cf63b44d1806.jpg)\n[´à´àöèÍş»¯É¢³Æ×°»¨Éú¿ÚÎ¶²úÆ·Á´½Ó](https://mdlz-public-read.oss-cn-shanghai.aliyuncs.com/sfa2/uat/mondelez/20230619/Admin/0/²úÆ·Ô¤ÀÀÍ¼/660835f0fd2a46048ec7cf63b44d1806.jpg)\n[´à´àöèÍş»¯É¢³Æ×°Å£ÄÌ¿ÚÎ¶²úÆ·Á´½Ó](https://mdlz-public-read.oss-cn-shanghai.aliyuncs.com/sfa2/uat/mondelez/20230619/Admin/0/²úÆ·Ô¤ÀÀÍ¼/660835f0fd2a46048ec7cf63b44d1806.jpg)'}, 'elapse': '8.571 s'}
+2023-07-04 05:15:35,554 - INFO - Exiting: Cleaning up .chroma directory
+2023-07-04 05:15:35,558 - INFO - 127.0.0.1 - - [04/Jul/2023 05:15:35] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
+2023-07-04 05:15:56,233 - WARNING - Created a chunk of size 285, which is longer than the specified 5
+2023-07-04 05:15:56,233 - WARNING - Created a chunk of size 436, which is longer than the specified 5
+2023-07-04 05:15:56,233 - WARNING - Created a chunk of size 328, which is longer than the specified 5
+2023-07-04 05:15:56,233 - WARNING - Created a chunk of size 347, which is longer than the specified 5
+2023-07-04 05:15:56,233 - WARNING - Created a chunk of size 320, which is longer than the specified 5
+2023-07-04 05:15:56,233 - WARNING - Created a chunk of size 394, which is longer than the specified 5
+2023-07-04 05:15:56,233 - WARNING - Created a chunk of size 347, which is longer than the specified 5
+2023-07-04 05:15:56,233 - WARNING - Created a chunk of size 271, which is longer than the specified 5
+2023-07-04 05:15:56,233 - WARNING - Created a chunk of size 258, which is longer than the specified 5
+2023-07-04 05:15:56,233 - WARNING - Created a chunk of size 257, which is longer than the specified 5
+2023-07-04 05:15:56,233 - WARNING - Created a chunk of size 259, which is longer than the specified 5
+2023-07-04 05:15:56,235 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-07-04 05:15:56,238 - INFO - Running Chroma using direct local API.
+2023-07-04 05:15:56,238 - WARNING - Using embedded DuckDB without persistence: data will be transient
+2023-07-04 05:16:01,655 - INFO - 
+returned data: 
+	{'answer': {'query': '´à´àöèÉ¢×°¶¼ÓĞÄÄĞ©¿ÚÎ¶£¿', 'result': '´à´àöèÉ¢×°³ıÁËÇÉ¿ËÁ¦¿ÚÎ¶Íâ£¬»¹ÓĞ»¨Éú¿ÚÎ¶ºÍÅ£ÄÌ¿ÚÎ¶¡£Äã¿ÉÒÔµã»÷ÒÔÏÂÁ´½Ó²é¿´²úÆ·Ô¤ÀÀÍ¼£ºhttps://mdlz-public-read.oss-cn-shanghai.aliyuncs.com/sfa2/uat/mondelez/20230619/Admin/0/%E4%BA%A7%E5%93%81%E9%A2%84%E8%A7%88%E5%9B%BE/b06277ff9c3c4f78836cf09d5a1dc293.jpg'}, 'elapse': '4.002 s'}
+2023-07-04 05:16:01,655 - INFO - Exiting: Cleaning up .chroma directory
+2023-07-04 05:16:01,658 - INFO - 127.0.0.1 - - [04/Jul/2023 05:16:01] "POST /api/chatgpt/v2 HTTP/1.0" 200 -
